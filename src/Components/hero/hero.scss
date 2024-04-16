@@ -1,0 +1,51 @@
+.hero {
+  height: calc(100vh - 66px);
+  overflow: hidden;
+  background: linear-gradient(180deg, #ffdf16, #ffe74d40);
+  padding-top: 60px;
+  position: relative;
+}
+
+.wrapper {
+  max-width: 1366px;
+  height: 100%;
+  margin: auto;
+}
+
+.textContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 40px;
+  h1 {
+    font-size: 64px;
+    line-height: 60px;
+  }
+  h2 {
+    font-size: 34px;
+  }
+  span {
+    font-weight: 400;
+  }
+  p {
+    font-size: 24px;
+  }
+  img {
+    width: 50px;
+  }
+  button {
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    border-color: gray;
+    background-color: #ffdf16;
+  }
+}
+.imageContainer {
+  padding-top: 50px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}

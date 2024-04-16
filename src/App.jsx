@@ -1,8 +1,14 @@
+import './app.scss';
+import Hero from './Components/hero/Hero';
+import Navbar from './Components/Navbar/Navbar';
+import '@fontsource/poppins';
 const App = () => {
   return (
     <div>
-      <section>Hero</section>
-      <section>Parralax</section>
+      <section>
+        <Navbar />
+        <Hero />
+      </section>
       <section>Services</section>
       <section>Parallax</section>
       <section>Portfolio1</section>
