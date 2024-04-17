@@ -16,7 +16,7 @@ const Hero = () => {
             <p>Want to replace your WhatsApp groups?</p>
             <p>register here and book a demo with us.</p>
           </div>
-          <div>
+          <div className='inputs'>
             <label htmlFor='number'>+91</label>
             <input
               type='text'
@@ -30,7 +30,7 @@ const Hero = () => {
         </div>
       </div>
       <div className='imageContainer'>
-        <img src='/hero-image.png' height={600} width={870} />
+        <img src='/hero-image.png' height={600} width={820} />
       </div>
     </div>
   );

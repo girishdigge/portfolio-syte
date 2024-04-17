@@ -19,32 +19,57 @@
   justify-content: start;
   gap: 40px;
   h1 {
-    font-size: 64px;
+    width: 50%;
+    font-size: 60px;
     line-height: 60px;
   }
   h2 {
-    font-size: 34px;
+    width: 55%;
+    font-size: 30px;
   }
   span {
     font-weight: 400;
   }
   p {
-    font-size: 24px;
+    width: 40%;
+    font-size: 22px;
   }
   img {
     width: 50px;
   }
-  button {
-    font-size: 20px;
-    width: 150px;
-    height: 40px;
-    border-color: gray;
-    background-color: #ffdf16;
+  .inputs {
+    label {
+      background-color: white;
+      padding: 4px;
+      font-size: 18px;
+
+      border: 2px solid gray;
+      border-right: none;
+    }
+    input {
+      width: 18%;
+      padding: 0.5px;
+      height: 2rem;
+      font-size: 18px;
+      border: 2px solid gray;
+    }
+    button {
+      font-size: 20px;
+      font-weight: bold;
+      width: 150px;
+      height: 40px;
+      background-color: #ffdf16;
+      border: 1px solid gray;
+      border-radius: 10px;
+      margin-left: 10px;
+      cursor: pointer;
+    }
   }
 }
 .imageContainer {
   padding-top: 50px;
   height: 100%;
+  width: 60%;
   position: absolute;
   top: 0;
   right: 0;
