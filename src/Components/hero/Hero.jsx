@@ -25,10 +25,44 @@ const Hero = () => {
               placeholder='Enter your phone number.'
             />
             <button>Book Demo</button>
+            <div className='features'>
+              <h4>
+                <span> Project Documentation at one place</span>
+                <span className='vl'></span>
+                <span>Accounts made easy</span>
+                <span className='vl'></span>
+                <span> Inventory management with payment tracking</span>
+              </h4>
+            </div>
           </div>
-          <img src='/scroll.png' alt=''></img>
+          <div className='download'>
+            <img
+              className='store'
+              src='/appStore.png'
+              width={200}
+              height={66}
+              alt='app store'
+            />
+            <img
+              className='store'
+              src='/playStore.png'
+              width={200}
+              height={66}
+              alt='app store'
+            />
+            <div className='madeIn'>
+              {' '}
+              Made with{' '}
+              <span>
+                <img className='heart' src='/heart.png' alt='heart' />
+              </span>{' '}
+              in India{' '}
+            </div>
+          </div>
+          <img className='scroll' src='/scroll.png' alt=''></img>
         </div>
       </div>
+
       <div className='imageContainer'>
         <img src='/hero-image.png' height={600} width={820} />
       </div>

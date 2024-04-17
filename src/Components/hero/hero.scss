@@ -1,13 +1,14 @@
 .hero {
   height: calc(100vh - 66px);
+
   overflow: hidden;
   background: linear-gradient(180deg, #ffdf16, #ffe74d40);
-  padding-top: 60px;
+  padding-top: 50px;
   position: relative;
 }
 
 .wrapper {
-  max-width: 1366px;
+  max-width: 95vw;
   height: 100%;
   margin: auto;
 }
@@ -17,11 +18,11 @@
   display: flex;
   flex-direction: column;
   justify-content: start;
-  gap: 40px;
+  gap: 30px;
   h1 {
     width: 50%;
     font-size: 60px;
-    line-height: 60px;
+    line-height: 52px;
   }
   h2 {
     width: 55%;
@@ -29,12 +30,14 @@
   }
   span {
     font-weight: 400;
+    opacity: 0.8;
   }
   p {
     width: 40%;
     font-size: 22px;
+    opacity: 0.9;
   }
-  img {
+  .scroll {
     width: 50px;
   }
   .inputs {
@@ -42,13 +45,13 @@
       background-color: white;
       padding: 4px;
       font-size: 18px;
-
       border: 2px solid gray;
       border-right: none;
     }
     input {
-      width: 18%;
+      width: 19%;
       padding: 0.5px;
+      // padding-bottom: 1px;
       height: 2rem;
       font-size: 18px;
       border: 2px solid gray;
@@ -69,8 +72,36 @@
 .imageContainer {
   padding-top: 50px;
   height: 100%;
-  width: 60%;
+  width: 50svw;
   position: absolute;
   top: 0;
   right: 0;
+}
+.slidingTextContainer {
+  position: absolute;
+
+  // bottom: -120;
+}
+.heart {
+  height: 28px;
+  width: 28px;
+  translate: 0 3px;
+}
+.vl {
+  border-left: 3px solid red;
+  height: 4px;
+}
+.features {
+  margin-top: 20px;
+  font-weight: 900;
+  font-size: 0.8rem;
+}
+.download {
+  display: flex;
+  font-size: 24px;
+  align-items: center;
+}
+
+.madeIn {
+  margin-left: 8px;
 }
