@@ -39,15 +39,15 @@ const Hero = () => {
             <img
               className='store'
               src='/appStore.png'
-              width={200}
-              height={66}
+              width={168}
+              height={50}
               alt='app store'
             />
             <img
               className='store'
               src='/playStore.png'
-              width={200}
-              height={66}
+              width={168}
+              height={50}
               alt='app store'
             />
             <div className='madeIn'>
@@ -64,7 +64,7 @@ const Hero = () => {
       </div>
 
       <div className='imageContainer'>
-        <img src='/hero-image.png' height={600} width={820} />
+        <img src='/hero-image.png' height={458} width={700} />
       </div>
     </div>
   );
