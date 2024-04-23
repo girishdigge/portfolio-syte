@@ -90,7 +90,7 @@ const Hero = () => {
           </motion.div>
           <motion.img
             className='scroll'
-            src='/scroll.png'
+            src='/scroll-black.png'
             alt=''
             variants={textVarients}
             animate='scrollButton'
