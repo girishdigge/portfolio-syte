@@ -1,41 +1,70 @@
+import { motion } from 'framer-motion';
 import './hero.scss';
+const textVarients = {
+  initial: {
+    x: -500,
+    opacity: 0,
+  },
+  animate: {
+    x: 0,
+    opacity: 1,
+    transition: {
+      duration: 1,
+      staggerChildren: 0.1,
+    },
+  },
+  scrollButton: {
+    opacity: 0,
+    y: 10,
+    transition: {
+      duration: 2,
+      repeat: Infinity,
+    },
+  },
+};
 const Hero = () => {
   return (
     <div className='hero'>
       <div className='wrapper'>
-        <div className='textContainer'>
+        <motion.div
+          className='textContainer'
+          variants={textVarients}
+          initial='initial'
+          animate='animate'
+        >
           <div>
-            <h1>Ab Kaam Hua</h1>
-            <h1>Aasan</h1>
+            <motion.h1 variants={textVarients}>Ab Kaam Hua</motion.h1>
+            <motion.h1 variants={textVarients}>Aasan</motion.h1>
           </div>
-          <h2>
+          <motion.h2 variants={textVarients}>
             <span>with</span> Construction Sites <span>on your fingertips</span>
-          </h2>
+          </motion.h2>
 
-          <div>
+          <motion.div variants={textVarients}>
             <p>Want to replace your WhatsApp groups?</p>
             <p>register here and book a demo with us.</p>
-          </div>
-          <div className='inputs'>
+          </motion.div>
+          <motion.div variants={textVarients} className='inputs'>
             <label htmlFor='number'>+91</label>
-            <input
+            <motion.input
               type='text'
               id='number'
               name='number'
-              placeholder='Enter your phone number.'
+              placeholder='Enter your phone number. '
+              variants={textVarients}
             />
             <button>Book Demo</button>
-            <div className='features'>
-              <h4>
+            <motion.div className='features'>
+              <motion.h4 variants={textVarients}>
                 <span> Project Documentation at one place</span>
                 <span className='vl'></span>
                 <span>Accounts made easy</span>
                 <span className='vl'></span>
                 <span> Inventory management with payment tracking</span>
-              </h4>
-            </div>
-          </div>
-          <div className='download'>
+              </motion.h4>
+            </motion.div>
+          </motion.div>
+          <motion.div className='download' variants={textVarients}>
             <img
               className='store'
               src='/appStore.png'
@@ -50,17 +79,23 @@ const Hero = () => {
               height={50}
               alt='app store'
             />
-            <div className='madeIn'>
+            <motion.div className='madeIn' variants={textVarients}>
               {' '}
               Made with{' '}
               <span>
                 <img className='heart' src='/heart.png' alt='heart' />
               </span>{' '}
               in India{' '}
-            </div>
-          </div>
-          <img className='scroll' src='/scroll.png' alt=''></img>
-        </div>
+            </motion.div>
+          </motion.div>
+          <motion.img
+            className='scroll'
+            src='/scroll.png'
+            alt=''
+            variants={textVarients}
+            animate='scrollButton'
+          ></motion.img>
+        </motion.div>
       </div>
 
       <div className='imageContainer'>
