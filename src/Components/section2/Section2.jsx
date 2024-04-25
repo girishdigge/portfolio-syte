@@ -17,17 +17,17 @@ const Section2 = () => {
               <h1 className='text-xl text-bold'>
                 250+ Businesses using our free apps
               </h1>
-              <h2 className='text-md ml-2 text-gray-500'>
+              <h2 className='text-md ml-2 pt-1 text-gray-500'>
                 Access your account anywhere, anytime.
               </h2>
               <div className='flex'>
                 <div className='flex items-center justify-center'>
-                  <img src='/play.png' className='contain p-2' />
-                  <span>Play Store</span>
+                  <img src='/play.png' className='contain ' />
+                  <span className='text-lg font-medium'>Play Store</span>
                 </div>
                 <div className='flex items-center justify-center'>
-                  <img src='/apple.png' className='contain p-2' />
-                  <span>App Store</span>
+                  <img src='/apple.png' className='contain' />
+                  <span className='text-lg font-medium'>App Store</span>
                 </div>
               </div>
             </div>
@@ -39,19 +39,39 @@ const Section2 = () => {
               <img src='/syte-logo.png' className='contain p-4' />
             </div>
             <div className='flex   h-32 rounded-r-full  w-1/12'>
-              <img src='/lt-vector.png' className='contain' />
+              <img src='/lt-vector.png' className='contain ' />
             </div>
             <div className='mr-44  flex'>
               <div className='flex flex-col pt-4'>
                 <h1 className='text-xl text-bold'>Need custom ERP? *</h1>
-                <h2 className='text-md ml-2 text-gray-500'>Contact Us</h2>
-                <div className='flex pt-2 gap-2 '>
+                <h2 className='text-md ml-2 text-gray-500 pt-1'>Contact Us</h2>
+                <div className='flex pt-3 gap-2 '>
                   <img src='/link.png' className='contain ' />
-                  <span>Go to Syte</span>
+                  <span className='text-lg font-medium'>Go to Syte</span>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div className='flex justify-between  '>
+        <div>
+          <img src='/building-l.png' className='contain ' />
+        </div>
+        <div className='flex flex-col items-center mt-10'>
+          <h1 className='text-syte-red text-xl font-semibold'>
+            DYNAMIC FEATURES TO HELP YOU
+          </h1>
+          <h2 className=' text-2xl font-semibold'>
+            {` "Revolutionizing Construction:`}
+          </h2>
+          <h2 className=' text-2xl font-semibold'>
+            {`SYTE, Building India's Future Online."`}
+          </h2>
+        </div>
+        <div>
+          <img src='/building-r.png' className='contain ' />
         </div>
       </div>
     </div>
