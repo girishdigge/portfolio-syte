@@ -53,8 +53,8 @@ const Hero = () => {
               placeholder='Enter your phone number. '
               variants={textVarients}
             />
-            <button>Book Demo</button>
-            <motion.div className='features gap-2'>
+            <button className='hover:scale-105 '>Book Demo</button>
+            <motion.div className='features gap-2 text-lg w-3/5'>
               <motion.h4 variants={textVarients}>
                 <span> Project Documentation at one place</span>
                 <span className='vl'></span>
@@ -66,14 +66,14 @@ const Hero = () => {
           </motion.div>
           <motion.div className='download gap-2' variants={textVarients}>
             <img
-              className='store'
+              className='store hover:scale-105'
               src='/appStore.png'
               width={168}
               height={50}
               alt='app store'
             />
             <img
-              className='store'
+              className='store hover:scale-105'
               src='/playStore.png'
               width={168}
               height={50}
@@ -84,7 +84,7 @@ const Hero = () => {
                 Made with{' '}
                 <span>
                   <img
-                    className='heart ml-2 mr-2'
+                    className='heart ml-2 mr-2 hover:scale-125'
                     src='/heart.png'
                     alt='heart'
                   />

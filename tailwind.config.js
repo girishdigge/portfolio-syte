@@ -11,6 +11,7 @@ export default {
           black: '#1F1F1F',
           orange: '#f7ca2f',
           orangeLight: '#ffd74d',
+          card: '#f4f6e9',
         },
       },
     },

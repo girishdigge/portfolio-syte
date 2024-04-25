@@ -1,0 +1,28 @@
+.inputs {
+  label {
+    background-color: white;
+    padding: 5px;
+    font-size: 20px;
+    border: 2px solid gray;
+    border-right: none;
+  }
+  input {
+    width: 52%;
+    padding: 1px;
+    // padding-bottom: 1px;
+    height: 2.5rem;
+    font-size: 18px;
+    border: 2px solid gray;
+  }
+  button {
+    font-size: 20px;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    background-color: #ffdf16;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+}
