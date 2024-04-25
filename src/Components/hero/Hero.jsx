@@ -54,7 +54,7 @@ const Hero = () => {
               variants={textVarients}
             />
             <button>Book Demo</button>
-            <motion.div className='features'>
+            <motion.div className='features gap-2'>
               <motion.h4 variants={textVarients}>
                 <span> Project Documentation at one place</span>
                 <span className='vl'></span>
@@ -64,7 +64,7 @@ const Hero = () => {
               </motion.h4>
             </motion.div>
           </motion.div>
-          <motion.div className='download' variants={textVarients}>
+          <motion.div className='download gap-2' variants={textVarients}>
             <img
               className='store'
               src='/appStore.png'
@@ -79,13 +79,18 @@ const Hero = () => {
               height={50}
               alt='app store'
             />
-            <motion.div className='madeIn' variants={textVarients}>
-              {' '}
-              Made with{' '}
-              <span>
-                <img className='heart' src='/heart.png' alt='heart' />
-              </span>{' '}
-              in India{' '}
+            <motion.div className='madeIn ' variants={textVarients}>
+              <span className='flex'>
+                Made with{' '}
+                <span>
+                  <img
+                    className='heart ml-2 mr-2'
+                    src='/heart.png'
+                    alt='heart'
+                  />
+                </span>{' '}
+                in India{' '}
+              </span>
             </motion.div>
           </motion.div>
           <motion.img
