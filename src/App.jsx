@@ -30,7 +30,7 @@ const App = () => {
         <Section6 />
       </section> */}
 
-      <section>Contact</section>
+      {/* <section>Contact</section> */}
       {/* <section></section> */}
     </div>
   );
