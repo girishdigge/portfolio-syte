@@ -44,13 +44,13 @@ const Section4 = () => {
           <h1 className='text-2xl font-bold'>SYTE Blogs</h1>
           <hr className='w-20 border-2 border-syte-red' />
         </div>
-        <div className='grid grid-cols-4'>
+        {/* <div className='grid grid-cols-4'>
           <div>
             {blogs.map(blog,index)=({
               
             })}
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
