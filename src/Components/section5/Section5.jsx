@@ -58,21 +58,31 @@ const Section5 = () => {
               communication between worksites and offices, enhancing
               collaboration for your construction ventures.
             </p>
-            <div className='flex gap-1 mt-2'>
-              <div className='flex items-center  justify-center bg-white rounded-xl p-1'>
-                <img src='./yt.png' alt='youtube' className='contain ' />
+            <div className='flex gap-1 mt-2 '>
+              <div className='flex items-center  justify-center bg-white rounded-xl p-1 cursor-pointer'>
+                <a href='#'>
+                  <img src='./yt.png' alt='youtube' className='contain ' />
+                </a>
               </div>
-              <div className='flex items-center  justify-center bg-white rounded-xl p-1 pl-2 pr-2'>
-                <img src='./ig1.png' alt='ig' className='contain ' />
+              <div className='flex items-center  justify-center bg-white rounded-xl p-1 pl-2 pr-2 cursor-pointer'>
+                <a href='#'>
+                  <img src='./ig1.png' alt='ig' className='contain ' />
+                </a>
               </div>
-              <div className='flex items-center  justify-center bg-white rounded-xl p-1 pl-2 pr-2'>
-                <img src='./x1.png' alt='x' className='contain w-5' />
+              <div className='flex items-center  justify-center bg-white rounded-xl p-1 pl-2 pr-2 cursor-pointer'>
+                <a href='#'>
+                  <img src='./x1.png' alt='x' className='contain w-5' />
+                </a>
               </div>
-              <div className='flex items-center  justify-center bg-white rounded-xl p-1 pl-2 pr-2'>
-                <img src='./fb1.png' alt='fb' className='contain ' />
+              <div className='flex items-center  justify-center bg-white rounded-xl p-1 pl-2 pr-2 cursor-pointer'>
+                <a href='#'>
+                  <img src='./fb1.png' alt='fb' className='contain ' />
+                </a>
               </div>
-              <div className='flex items-center  justify-center bg-white rounded-xl p-1 pl-2 pr-2'>
-                <img src='./ln.png' alt='ln' className='contain w-6' />
+              <div className='flex items-center  justify-center bg-white rounded-xl p-1 pl-2 pr-2 cursor-pointer'>
+                <a href='#'>
+                  <img src='./ln.png' alt='ln' className='contain w-6' />
+                </a>
               </div>
             </div>
           </div>
