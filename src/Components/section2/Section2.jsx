@@ -21,13 +21,17 @@ const Section2 = () => {
                 Access your account anywhere, anytime.
               </h2>
               <div className='flex'>
-                <div className='flex items-center justify-center'>
+                <div className='flex items-center justify-center hover:scale-110 cursor-pointer'>
                   <img src='/play.png' className='contain ' />
-                  <span className='text-lg font-medium'>Play Store</span>
+                  <span className='text-lg font-medium hover:underline'>
+                    Play Store
+                  </span>
                 </div>
-                <div className='flex items-center justify-center'>
+                <div className='flex items-center justify-center hover:scale-110 ml-2 cursor-pointer'>
                   <img src='/apple.png' className='contain' />
-                  <span className='text-lg font-medium'>App Store</span>
+                  <span className='text-lg font-medium hover:underline'>
+                    App Store
+                  </span>
                 </div>
               </div>
             </div>
@@ -45,9 +49,11 @@ const Section2 = () => {
               <div className='flex flex-col pt-4'>
                 <h1 className='text-xl text-bold'>Need custom ERP? *</h1>
                 <h2 className='text-md ml-2 text-gray-500 pt-1'>Contact Us</h2>
-                <div className='flex pt-3 gap-2 '>
+                <div className='flex pt-3 gap-2 cursor-pointer hover:scale-110'>
                   <img src='/link.png' className='contain ' />
-                  <span className='text-lg font-medium'>Go to Syte</span>
+                  <span className='text-lg font-medium hover:underline'>
+                    Go to Syte
+                  </span>
                 </div>
               </div>
             </div>
