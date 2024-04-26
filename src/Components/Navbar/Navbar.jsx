@@ -5,7 +5,7 @@ const Navbar = () => {
     <div className='navbar'>
       <div className='wrapper '>
         <a href='#'>
-          <img src='/syte-logo.png' alt='syte logo' />
+          <img src='/logo.png' alt='syte logo' />
         </a>
         <motion.h1
           initial={{ opacity: 0, scale: 0.5 }}

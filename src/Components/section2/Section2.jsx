@@ -8,7 +8,7 @@ const Section2 = () => {
         <div className=' rounded-xl mr-10 h-32 bg-syte-primary'>
           <div className='flex'>
             <div className='flex items-center justify-center h-32 rounded-xl  w-1/5'>
-              <img src='/syte-logo.png' className='contain p-4' />
+              <img src='/logo.png' className='contain p-8' />
             </div>
             <div className='flex  h-32 rounded-r-full  w-1/12'>
               <img src='/rt-vector.png' className='contain' />
@@ -36,7 +36,7 @@ const Section2 = () => {
         <div className=' rounded-xl mr-10 h-32 bg-syte-primary'>
           <div className='flex flex-row-reverse'>
             <div className='flex items-center justify-center h-32 rounded-xl  w-1/5'>
-              <img src='/syte-logo.png' className='contain p-4' />
+              <img src='/logo.png' className='contain p-8' />
             </div>
             <div className='flex   h-32 rounded-r-full  w-1/12'>
               <img src='/lt-vector.png' className='contain ' />
